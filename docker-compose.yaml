@@ -55,7 +55,7 @@ services:
     - cart
     - shipping
     - payment
-network:
+networks:
   default:
     drive: bridge
     name: roboshop
