@@ -57,6 +57,6 @@ services:
     - payment
 networks:
   default:
-    drive: bridge
+    driver: bridge
     name: roboshop
-    extrernal: true
+    external: true
